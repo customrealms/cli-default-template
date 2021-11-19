@@ -1,0 +1,9 @@
+{
+    "files": {
+        ".gitignore": false,
+        "main.ts": false,
+        "package.json": true,
+        "tsconfig.json": false,
+        "webpack.config.js": false
+    }
+}
