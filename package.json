@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "build:jar": "crx build -o ./dist/{{ .Name }}.jar",
-        "build": "webpac --mode=production",
+        "build": "webpack --mode=production",
         "clean": "rm -rf ./dist"
     },
     "keywords": [],
