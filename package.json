@@ -5,6 +5,7 @@
     "scripts": {
         "build:jar": "crx build -o ./dist/{{ .Name }}.jar",
         "build": "webpack --mode=production",
+        "serve": "crx run",
         "clean": "rm -rf ./dist"
     },
     "keywords": [],
